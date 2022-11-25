@@ -1,0 +1,126 @@
+// 包裹的容器
+.container{
+    // 顶部
+    .top{
+        height: 50px;
+        background-color: #deab8a;
+        // 左边
+        .left{
+            float: left;
+            text-align: center;
+            margin-left: 10px;
+           a{
+            i{
+                line-height: 50px;
+                font-size: 40px;
+            }
+           }
+        }
+        // 右边
+        .right{
+            float: right;
+            text-align: center;
+            margin-right: 20px;
+            i{
+                font-size: 30px;
+                // line-height: 50px;
+                vertical-align: middle;
+            }
+            a{
+                line-height: 50px;
+                font-size: 18px;
+                color: #feeeed;
+                // vertical-align: bottom;
+                i{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    // 侧边栏
+    .sideBar{
+        width: 200px;
+        height: calc(100% - 50px);
+        background-color: #694d9f;
+        float: left;
+        // 一级菜单
+        .firstMenu{
+            // 解决边距合并问题
+            overflow: hidden;
+            li{
+                padding: 15px 0px;
+                padding-left: 25px;
+                &:hover{
+                    background-color: #543044;
+                }
+                i{
+                    font-size: 18px;
+                }
+                a{
+                    padding-left: 20px;  
+                    font-size: 18px;
+                    color: #d5c59f;
+                }
+            }
+        }
+        // 二级菜单
+        .secondMenu{
+            height: 45px;
+            overflow: hidden;
+            transition: all .8s linear;
+            dt{
+                padding: 10px 0px;
+                padding-left: 25px;
+                padding-bottom: 10px;
+                &:hover{
+                    background-color: #543044;
+                }
+                i{
+                    font-size: 18px;
+                }
+                a{
+                    padding-left: 20px; 
+                    font-size: 18px;
+                    color: #d5c59f;
+                    padding-right: 20px;
+                }
+                .icon{
+                    display: inline;
+                    i{
+                        
+                    }
+                }
+            }
+            dd{
+                padding: 6px 0px;
+                padding-left: 35px;
+                &:hover{
+                    background-color: #543044;
+                }
+                i{
+                    font-size: 15px;
+                }
+                a{
+                    padding-left: 10px;
+                    font-size: 16px;
+                    color: #d5c59f;
+                }
+            }
+        }
+
+    }
+    // 中间内容区域
+    .main{
+        float: right;
+        width: calc(100% - 200px);
+        height: calc(100% - 50px);
+        //去除iframe带一个空格边距间隙
+        font-size: 0px;
+        iframe{
+            width: 100%;
+            height: 100%;
+            background-color: #f2eada;
+            font-size: 16px;
+        }
+    }
+}

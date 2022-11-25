@@ -1,0 +1,106 @@
+.container .top {
+  height: 50px;
+  background-color: #deab8a;
+}
+.container .top .left {
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+.container .top .left a i {
+  line-height: 50px;
+  font-size: 40px;
+}
+.container .top .right {
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+}
+.container .top .right i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.container .top .right a {
+  line-height: 50px;
+  font-size: 18px;
+  color: #feeeed;
+}
+.container .top .right a i {
+  font-size: 20px;
+}
+.container .sideBar {
+  width: 200px;
+  height: calc(100% - 50px);
+  background-color: #694d9f;
+  float: left;
+}
+.container .sideBar .firstMenu {
+  overflow: hidden;
+}
+.container .sideBar .firstMenu li {
+  padding: 15px 0px;
+  padding-left: 25px;
+}
+.container .sideBar .firstMenu li:hover {
+  background-color: #543044;
+}
+.container .sideBar .firstMenu li i {
+  font-size: 18px;
+}
+.container .sideBar .firstMenu li a {
+  padding-left: 20px;
+  font-size: 18px;
+  color: #d5c59f;
+}
+.container .sideBar .secondMenu {
+  height: 45px;
+  overflow: hidden;
+  transition: all 0.8s linear;
+}
+.container .sideBar .secondMenu dt {
+  padding: 10px 0px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+.container .sideBar .secondMenu dt:hover {
+  background-color: #543044;
+}
+.container .sideBar .secondMenu dt i {
+  font-size: 18px;
+}
+.container .sideBar .secondMenu dt a {
+  padding-left: 20px;
+  font-size: 18px;
+  color: #d5c59f;
+  padding-right: 20px;
+}
+.container .sideBar .secondMenu dt .icon {
+  display: inline;
+}
+.container .sideBar .secondMenu dd {
+  padding: 6px 0px;
+  padding-left: 35px;
+}
+.container .sideBar .secondMenu dd:hover {
+  background-color: #543044;
+}
+.container .sideBar .secondMenu dd i {
+  font-size: 15px;
+}
+.container .sideBar .secondMenu dd a {
+  padding-left: 10px;
+  font-size: 16px;
+  color: #d5c59f;
+}
+.container .main {
+  float: right;
+  width: calc(100% - 200px);
+  height: calc(100% - 50px);
+  font-size: 0px;
+}
+.container .main iframe {
+  width: 100%;
+  height: 100%;
+  background-color: #f2eada;
+  font-size: 16px;
+}

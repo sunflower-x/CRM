@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
+    <body>
+        <!-- 包裹的容器 -->
+        <div class="container">
+            <!-- 顶部 -->
+            <div class="top">
+                <!-- 左边 -->
+                <div class="left">
+                    <a href="#" class="left"><i class="fa-solid fa-truck-fast"></i></a>
+                </div>
+                <!-- 右边 -->
+                <div class="right">
+                    <i class="fa-solid fa-street-view"></i>
+                    <a href="#">
+                        Jack
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- 侧边栏 -->
+            <div class="sideBar">
+                <!-- 一级菜单 -->
+                <ul class="firstMenu">
+                    <li>
+                        <i class="fa-solid fa-house-signal"></i>
+                        <a href="#">工作台</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-comment-dots"></i>
+                        <a href="#">动态</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-filter-circle-dollar"></i>
+                        <a href="./pages/activity.html" target="content">市场活动</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                        <a href="#">客户</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-money-bill-transfer"></i>
+                        <a href="#">交易</a>
+                    </li>
+                </ul>
+                <!-- 二级菜单 -->
+                <dl class="secondMenu">
+                    <dt class="statisticChart">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <a href="#">统计图表</a>
+                        <div class="icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </dt>
+                    <dd>
+                        <i class="fa-solid fa-table"></i>
+                        <a href="#">市场活动统计图表</a>
+                    </dd>
+                    <dd>
+                        <i class="fa-solid fa-table"></i>
+                        <a href="#">线索统计图表</a>
+                    </dd>
+                    <dd>
+                        <i class="fa-solid fa-table"></i>
+                        <a href="#">客户统计图表</a>
+                    </dd>
+                    <dd>
+                        <i class="fa-solid fa-table"></i>
+                        <a href="#">交易统计图表</a>
+                    </dd>
+                </dl>
+            </div>
+            <!-- 中间内容区域 -->
+            <div class="main">
+                <iframe src="" frameborder="0" name="content"></iframe>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/b7fa3ac2fa.js" crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+    </body>
 </html>

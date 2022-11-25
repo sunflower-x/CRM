@@ -1,0 +1,61 @@
+// 包裹容器
+.container{
+    // 标题
+    .title{
+        h2{
+
+        }
+    }
+    // 模糊搜索
+    .search{
+        margin-top: 40px;
+        form{
+            font-size: 0px;
+            label{
+                text-align: center;
+                display: inline-block;
+                height: 40px;
+                width: 85px;
+                font-size: 16px;
+                border: 1px solid #6d5826;
+                vertical-align: bottom;
+                box-sizing: border-box;
+                background-color: #d3c6a6;
+                line-height: 40px;
+            }
+            input{
+                height: 40px;
+                vertical-align: bottom;
+                box-sizing: border-box;
+                margin-right: 20px;
+                padding-left: 10px;
+                &[type='submit']{
+                width: 70px;
+                }
+                &::-webkit-input-placeholder{
+                   
+                }
+            }
+            
+        }
+    }
+    // 操作数据
+    .operate{
+        height: 60px;
+        margin-top: 30px;
+        background-color: #7c8577;
+        line-height: 60px;
+        font-size: 0px;
+        button{
+            height: 40px;
+            font-size: 18px;
+            padding: 0px 4px;
+            // border: none;
+            vertical-align: middle;
+            border: 1px solid gray;
+            &:nth-child(3){
+                margin-right: 30px;
+            }
+        }
+    }
+}

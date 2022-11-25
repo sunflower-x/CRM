@@ -1,0 +1,45 @@
+.container .search {
+  margin-top: 40px;
+}
+.container .search form {
+  font-size: 0px;
+}
+.container .search form label {
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  width: 85px;
+  font-size: 16px;
+  border: 1px solid #6d5826;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  background-color: #d3c6a6;
+  line-height: 40px;
+}
+.container .search form input {
+  height: 40px;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+.container .search form input[type='submit'] {
+  width: 70px;
+}
+.container .operate {
+  height: 60px;
+  margin-top: 30px;
+  background-color: #7c8577;
+  line-height: 60px;
+  font-size: 0px;
+}
+.container .operate button {
+  height: 40px;
+  font-size: 18px;
+  padding: 0px 4px;
+  vertical-align: middle;
+  border: 1px solid gray;
+}
+.container .operate button:nth-child(3) {
+  margin-right: 30px;
+}
